@@ -7,7 +7,7 @@
 - Reinicio: Una vez terminado el cuestionario, los usuarios pueden reiniciar el juego y jugar nuevamente.
 
 ## Visualización
- Para ver el proyecto: [Click aqui](<[https://samicodev.github.io/encriptador-texto/](https://samicodev.github.io/juego-quiz/)>)
+ Para ver el proyecto: [Click aqui](<https://samicodev.github.io/juego-quiz/)>)
 - **Funcionamiento del encriptador**
 ![JuegoFinalizado](https://github.com/user-attachments/assets/d5f7ce27-2309-40cf-a6f0-7de883cf5ccd)
 
