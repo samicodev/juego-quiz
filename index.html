@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Preguntas y Respuestas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="info-juego">
+            <p class="contador-preguntas">Pregunta <span id="numero-pregunta"></span> de <span id="total-preguntas"></span></p>
+            <p id="puntaje">Puntaje: <span id="puntaje-final"></span></p>
+        </div>
+        <h1>Juego de Preguntas y Respuestas</h1>
+        <p id="pregunta"></p>
+        <div id="opciones">
+            <!-- Lista de opciones para elegir -->
+        </div>
+        <div class="botones-navegacion">
+          <button id="boton-siguiente" onclick="mostrarSiguientePregunta()">Siguiente</button>
+          <button id="boton-reiniciar" onclick="reiniciarJuego()">Reiniciar</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #DEF9C4;
+}
+
+.contenedor {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  text-align: center;
+}
+
+.info-juego{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contador-preguntas {
+  font-size: 14px;
+  color: #333;
+}
+
+#puntaje {
+  display: none;
+  font-size: 14px;
+  color: #333;
+}
+
+#opciones button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #50B498;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#opciones button:hover {
+  background-color: #468585;
+}
+
+#opciones button.correcto {
+  background-color: #4a9148;
+}
+
+#opciones button.incorrecto {
+  background-color: #EE4E4E;
+}
+
+.botones-navegacion {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+#boton-siguiente,
+#boton-reiniciar {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 30%;
+}
+
+#boton-siguiente {
+  background-color: #2C4E80;
+
+  color: white;
+}
+
+#boton-siguiente:hover {
+  background-color: #00215E;
+
+}
+
+#boton-reiniciar {
+  background-color: #677D6A;
+  color: white;
+  display: none;
+}
+
+#boton-reiniciar:hover {
+  background-color: #40534C;
+
+}
+
